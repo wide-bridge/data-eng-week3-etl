@@ -66,4 +66,4 @@ python parted_again.py
 
 ## 학습 자료
 
-[데이터 엔지니어링 과정 3주차](https://data-eng.jobability.co.kr/learning/week-3)의 실습 예제를 바탕으로 작성했습니다. 이 저장소는 현재까지의 실습 공유용이며 최종 과제 제출 완료를 의미하지 않습니다.
+[데이터 엔지니어링 과정 3주차](https://data-eng.jobability.co.kr/learning/week-3)의 실습 예제를 바탕으로 작성했습니다. 
