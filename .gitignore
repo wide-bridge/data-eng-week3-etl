@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.csv
+*.parquet
+events_parted/
+.env
+.env.*
+!.env.example
+*.duckdb
+*.duckdb.wal
