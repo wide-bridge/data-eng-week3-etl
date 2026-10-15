@@ -9,3 +9,9 @@ events_parted/
 !.env.example
 *.duckdb
 *.duckdb.wal
+
+# 수업 제출용 소형 산출물
+!orders_clean.parquet
+!quality_report.csv
+!user_segments.parquet
+!segment_summary.parquet

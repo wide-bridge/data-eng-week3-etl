@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "raw_sha256": "85bf8e4e496a205366058ea8af2c5f7fa118a7bc5b15f8688894991f044f93af",
+  "before": {
+    "rows": 1015.0,
+    "dup_order_id": 15.0,
+    "null_price": 30.0,
+    "null_rate_pct": 2.96,
+    "category_values": 5.0
+  },
+  "after": {
+    "rows": 1000.0,
+    "dup_order_id": 0.0,
+    "null_price": 0.0,
+    "null_rate_pct": 0.0,
+    "category_values": 4.0
+  },
+  "median_after_dedup": 100500.0,
+  "median_before_dedup": 101000.0,
+  "first_date": "2026-06-01 00:00:00",
+  "last_date": "2026-07-30 00:00:00",
+  "checks": [
+    "same_input_rerun",
+    "clean_idempotence",
+    "parquet_roundtrip",
+    "duckdb_pandas_crosscheck",
+    "invalid_value_detection",
+    "failure_exit_1_preserves_output",
+    "isolated_reproduction",
+    "raw_unchanged"
+  ]
+}
